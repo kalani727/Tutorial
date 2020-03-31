@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule - Rotate and Move",
-            "x": 811,
-            "y": 85,
+            "x": 0.9583333333333334,
+            "y": 0.7418478260869564,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -123,10 +123,36 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.05677083333333333,
+                    "y": 0.2554347826086957,
+                    "uniqueID": 606028,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.49895833333333334,
+                    "y": 0.1875,
+                    "uniqueID": 934230,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 102,
-                    "y": 58,
+                    "x": 0.5296875,
+                    "y": 0.6440217391304348,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -140,23 +166,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 295,
-                    "y": 50,
-                    "uniqueID": 225460,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 5
-                        }
-                    ]
-                },
-                {
                     "atomType": "Constant",
                     "name": "Constant - Radius",
-                    "x": 72,
-                    "y": 302,
+                    "x": 0.8052083333333334,
+                    "y": 0.26358695652173914,
                     "uniqueID": 832924,
                     "ioValues": [
                         {
@@ -166,32 +179,41 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.6281249999999999,
+                    "y": 0.6657608695652174,
+                    "uniqueID": 225460,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 272,
-                    "y": 158,
+                    "x": 0.8114583333333333,
+                    "y": 0.4782608695652174,
                     "uniqueID": 950419,
                     "ioValues": [],
                     "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 284,
-                    "y": 291,
-                    "uniqueID": 606028,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.9171875,
+                    "y": 0.3858695652173913,
+                    "uniqueID": 800690,
+                    "ioValues": [],
+                    "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 508,
-                    "y": 59,
+                    "x": 0.7625000000000001,
+                    "y": 0.7445652173913044,
                     "uniqueID": 636389,
                     "ioValues": [
                         {
@@ -209,49 +231,27 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 518,
-                    "y": 287,
-                    "uniqueID": 934230,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 702,
-                    "y": 56,
-                    "uniqueID": 800690,
-                    "ioValues": [],
-                    "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 698,
-                    "y": 196,
-                    "uniqueID": 449683,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 716,
-                    "y": 282,
+                    "x": 0.9651041666666668,
+                    "y": 0.5842391304347826,
                     "uniqueID": 606302,
                     "ioValues": [],
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.8729166666666667,
+                    "y": 0.7445652173913044,
+                    "uniqueID": 449683,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Molecule - Rotate and Move",
-                    "x": 811,
-                    "y": 85,
+                    "x": 0.9583333333333334,
+                    "y": 0.7418478260869564,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -261,10 +261,19 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.9348958333333333,
+                    "y": 0.8342391304347826,
+                    "uniqueID": 650474,
+                    "ioValues": [],
+                    "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 959,
-                    "y": 156,
+                    "x": 0.9578125000000001,
+                    "y": 0.9211956521739131,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
@@ -279,15 +288,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 1105,
-                    "y": 123,
-                    "uniqueID": 650474,
-                    "ioValues": [],
-                    "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -300,15 +300,22 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 632755,
-                    "ap2ID": 225460
+                    "ap1ID": 606028,
+                    "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 934230,
+                    "ap2ID": 449683
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 225460,
-                    "ap2ID": 636389
+                    "ap1ID": 632755,
+                    "ap2ID": 225460
                 },
                 {
                     "ap1Name": "number",
@@ -321,21 +328,14 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 606028,
-                    "ap2ID": 934230
+                    "ap1ID": 225460,
+                    "ap2ID": 636389
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 636389,
-                    "ap2ID": 449683
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 934230,
                     "ap2ID": 449683
                 },
                 {
@@ -369,5 +369,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "0.1"
 }
